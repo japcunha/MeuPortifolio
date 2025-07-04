@@ -12,7 +12,7 @@ export default function About() {
           JavaScript e estou aprendendo React.
         </p>
         <div>tecnologias:</div>
-        <div>Em desenvolvimento:</div>
+
 </div>
     </section>
   );
