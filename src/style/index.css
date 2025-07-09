@@ -1,19 +1,31 @@
 body {
-    justify-content: content;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section {
+    display: flex;
+    min-height: 100vh;
 }
 
 .logo a {
     font-size: 1.4rem;
     font-weight: bolder;
     text-decoration: none;
+    color: rgba(247, 247, 247, 0.664);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.02);
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.765);
-    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.804);
+    color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     top: 0;
@@ -44,57 +56,75 @@ body {
 }
 
 .nav-links a:hover {
-    color: blanchedalmond;
+    color: rgb(250, 240, 224);
     transform: scale(1.02);
     text-decoration-line: underline;
 }
 
-#about {
+#aboutMe {
     display: flex;
-    background-image: url('img/net (1).gif');
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/net.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    padding: 4rem 2rem;
 }
 
-#about .container {
+#aboutMe .container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 0 50px;
     background-color: rgba(0, 0, 0, 0.541);
-    color: antiquewhite;
-    width: 90%;
-    max-width: 800px;
-    min-width: 300px;
+    color: rgb(249, 241, 230);
+    padding: 85px;
+    max-width: 850px;
+    margin: 0 auto;
     height: auto;
-    min-height: 50%;
-    max-height: 500px;
+    max-height: 60%;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.765);
-    margin: auto;
 }
 
-img {
+#aboutMe .container {
+    max-height: 450px;
+    overflow-y: auto;
+    padding-right: 2.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: #6c63ff #1a1a1a;
+}
+
+#aboutMe img {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 125px;
+    border-radius:50%;
+    border: 5px solid #ffffff44;
+    box-shadow:0 0 20px rgba(108, 99, 255, 0.3);
 }
 
-.intro {
+#aboutMe .intro {
     display: column;
-    margin: 25px;
+    margin: 50px;
     text-align: center;
+    margin: auto;
+    width: 100%;
 }
 
-#projects {
-    display: flex;
-    min-height: 100vh;
+
+#aboutMe .intro h1 {
+    font-size: 2rem;
+    color: rgb(235, 232, 232);
+margin-bottom: 2rem;;
+    
 }
 
-#contact {
-    display: flex;
-    min-height: 100vh;
+.footer {
+    background-color: black;
+    color: #65a52abd;
+    width: 100%;
+    top: 0;
+    z-index: 800;
+    padding: 15px 0px;
 }

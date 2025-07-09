@@ -1,0 +1,25 @@
+.skill {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #72c628;
+  height: 100%;
+  width: 0;
+  transition: width 0.6s ease-in-out;
+}
