@@ -1,19 +1,28 @@
+import Skills from "./Skills";
+
 export default function About() {
   return (
-    <section id="about">
+    <section id="aboutMe">
       <div className="container">
-          <img src="imgs/cat.jpeg" alt="me" className="img" />
-        <h2 className="text-xl font-semibold mb-2">
-          Olá! me chamo Joane Cunha
-        </h2>
-        <p>
-          Sou estudante de [seu curso] e estou em busca de uma oportunidade para
-          crescer como desenvolvedora web. Tenho conhecimentos em HTML, CSS,
-          JavaScript e estou aprendendo React.
-        </p>
-        <div>tecnologias:</div>
-
-</div>
+        <div className="image">
+          <img src="img/cat.jpeg" alt="me" className="img" />
+        </div>
+        <div className="intro">
+          <h1 className="text-xl font-semibold mb-2">
+            Olá! me chamo Joane Cunha
+          </h1>
+          <p>
+            Sou estudante de Analise e Desenvolvimento de Sistemas, atualmente
+            no 4º período e estou em busca de uma oportunidade para crescer como
+            desenvolvedora web.{" "}
+          </p>
+          <p>
+            Tenho conhecimento em Lógica de programação, POO, e nas seguintes
+            linguagens e tecnologias:
+          </p>
+          <Skills />
+        </div>
+      </div>
     </section>
   );
 }
