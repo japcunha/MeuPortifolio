@@ -24,23 +24,12 @@ export default function Projects() {
             <span>Vite</span>
           </div>
         </div>
+
         <div
           className="project-card"
           onClick={() => window.open("https://japcunha.github.io/RELOGIO/")}
         >
-          <h3>Calculadora</h3>
-          <p>Construção de uma calculadora</p>
-          <div className="project-tag">
-            <span>Javascript</span>
-            <span>React</span>
-            <span>tailwindCSS</span>
-          </div>
-        </div>
-        <div
-          className="project-card"
-          onClick={() => window.open("https://japcunha.github.io/RELOGIO/")}
-        >
-          <h3>RELÓGIO</h3>
+          <h3>Relógio</h3>
           <p></p>
           <div className="project-tag">
             <span>Javascript</span>

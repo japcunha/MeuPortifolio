@@ -1,11 +1,9 @@
 #projects {
+  display: block;
   background-color: #0d0d0d;
   padding: 4rem 2rem;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-}
-.projects-title{
-    
 }
 
 #projects h2 {

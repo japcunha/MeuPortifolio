@@ -6,12 +6,10 @@ import Footer from './components/Footer';
 
 function App() {
  
-
   return (
     <>
      <Header/>
-
-     <main className=''>
+     <main className='x'>
       <About/>
       <Projects/>
       <Contact />

@@ -4,7 +4,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="nav-container">
         <div className="logo">
-          <a href="#aboutMe">Joane Cunha</a>
+          <a href="#aboutMe">Portifólio</a>
         </div>
             <ul className="nav-links">
                 <li><a href="#aboutMe">Sobre</a></li>
