@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+#aboutMe {
+    flex-direction: column;
+    padding: 4rem 1rem;
+    height: auto;
+  }
+}
+
+#aboutMe {
+    display: flex;
+    background-image: url('img/net.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#aboutMe .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(249, 241, 230);
+    margin:0  auto;
+    max-height: 60%;
+    border-radius: 10px;
+    overflow-y: auto;
+    margin: 8%;
+    padding: 45px;
+    scrollbar-width: thin;
+    scrollbar-color: #6c63ff #1a1a1a;
+}
+ .container .img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff44;
+    box-shadow: 0 0 20px #6c63ff4d;
+}
+.text-content{
+    padding: 20px;
+}
