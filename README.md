@@ -19,4 +19,6 @@ Olá, este é um projeto de portfólio pessoal desenvolvido com **React**, **Jav
 
 ## Como Rodar o Projeto
    npm run dev
+## Acesse:
+https://japcunha.github.io/MeuPortifolio/
    
