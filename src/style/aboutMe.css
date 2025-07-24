@@ -1,14 +1,16 @@
 @media screen and (max-width: 768px) {
-    #aboutMe {
+    #aboutMe .container {
         flex-direction: column;
         padding: 4rem 1rem;
         height: auto;
+        padding: 50px 20px;
     }
 }
 
 #aboutMe {
     display: flex;
-    background-image: url('/img/net (1).gif');
+    padding-top: 120px;
+    background-image: url('src/img/net (1).gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,15 +23,18 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.541);
     color: rgb(249, 241, 230);
-    margin: 100px 0px;
-    padding: 50px 20px;
+    margin: 150px auto 100px;
+    margin-top: 100px;
+    padding: 80px 50px;
     border-radius: 10px;
     overflow-y: auto;
-    scrollbar-width: thin;;
-    max-height: 100rem;
-    min-height: 50rem;
-    padding-right:10px;
+    scrollbar-width: thin;
     scrollbar-color: #6c63ff #1a1a1a;
+    width: 75%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .img {
@@ -45,7 +50,6 @@
 
 .img:hover {
     box-shadow: 0 0 20px #8580f769
-    
 }
 
 .text-content {

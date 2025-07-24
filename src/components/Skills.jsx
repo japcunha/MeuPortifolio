@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SkillBar from "./SkillBar.jsx";
 
 const Skills = () => {
