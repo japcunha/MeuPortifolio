@@ -6,10 +6,12 @@ const Skills = () => {
     { skill: 'HTML', level: 90 },
     { skill: 'CSS3 / TailwindCSS', level: 82 },
     { skill: 'JavaScript', level: 70 },
-    { skill: 'React', level: 65 },
-    { skill: 'Java', level: 45 },
-    { skill: 'Node + Express', level: 52 },
-    { skill: 'MySQL', level: 31 },
+    { skill: 'React', level: 67 },
+    { skill: 'Bootstrap', level: 60 },
+    { skill: 'Git/Github', level: 75 },
+    { skill: 'Java', level: 25 },
+    { skill: 'Node + Express', level: 40 },
+    { skill: 'MySQL', level: 22 },
   ];
 
   return (

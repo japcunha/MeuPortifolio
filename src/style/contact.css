@@ -1,5 +1,5 @@
 #contact {
-    display: flex;
+    display: block;
     background-color: #0d0d0d;
     color: rgb(255, 255, 255);
     min-height: 25vh;
@@ -7,27 +7,30 @@
 }
 
 .contact-tag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     width: 100%;
+    margin: 20px;
 }
+
 
 .contact-tag ul {
-    margin-top: 70px;
-}
-
-.contact-tag ul li {
     display: flex;
     color: #65a52abd;
     list-style: none;
     align-items: center;
     padding: 0;
-     margin-top: 10px;
+    margin: 70px auto 0;
     flex-direction: column;
+    gap: 5px;
+}
+
+.contact-tag ul li a {
+    color: #b0df42e5;
+    text-decoration: none;
+    transition: color 0.3s ease;
 
 }
-.contact-tag ul li a{
-    color: #65a52abd;
+
+.contact-tag ul li a:hover {
+    color: #fff;
 }

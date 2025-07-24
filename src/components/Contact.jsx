@@ -3,7 +3,7 @@ export default function Contact() {
     <section id="contact">
       <h2>Contato</h2>
       <div className="contact-tag">
-        <ul>
+        <ul className="ul">
           <li>Email: joaneapc@gmail.com</li>
           <li>
             <a

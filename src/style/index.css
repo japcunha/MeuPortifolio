@@ -11,6 +11,7 @@ section {
     min-height: 100vh;
 }
 
+
 .logo a {
     font-size: 1.4rem;
     font-weight: bolder;
@@ -25,12 +26,15 @@ a:hover {
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.804);
+    transition: background-color 0.4s ease;
     color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
     padding: 15px 0px;
+      
+    
 }
 
 .navbar .nav-container {
@@ -40,6 +44,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .navbar ul {
@@ -47,6 +52,7 @@ a:hover {
     display: flex;
     gap: 1rem;
     margin-right: 30px;
+ 
 }
 
 .nav-links li a {
@@ -60,13 +66,17 @@ a:hover {
     transform: scale(1.02);
     text-decoration-line: underline;
 }
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.457); 
+  backdrop-filter: blur(4px);  
+}
 
 .footer {
     background-color: black;
-    color: #65a52abd;
+    color: #b0df42e5;
     text-align: center;
     width: 100%;
     top: 0;
     z-index: 800;
-    padding: 15px 0px;
+    padding: 25px;
 }

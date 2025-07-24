@@ -33,12 +33,12 @@
 
 .project-card:hover{
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(108, 99, 255, 0.2);
+  box-shadow: 0 0 20px rgba(80, 74, 185, 0.2);
 }
 
 .project-card h3 {
   font-size: 1.5rem;
-  color: #66a52ac8;
+  color: #b0df42e5;
   margin-bottom: 1rem;
 }
 
