@@ -10,7 +10,7 @@
 #aboutMe {
     display: flex;
     padding-top: 120px;
-    background-image: url('./public/net (1).gif');
+    background-image: url('./net (1).gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
