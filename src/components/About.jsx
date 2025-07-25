@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="aboutMe">
       <div className="container">
-          <img src="/MeuPortifolio/src/img/me (2).jpg" alt="me" className="img" />
+          <img src="/MeuPortifolio/me (2).jpg" alt="me" className="img" />
           <div className="text-content">
         <h2>
           Olá! me chamo Joane Cunha
